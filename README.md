@@ -25,3 +25,28 @@ DiffScout changes the game by:
   - `PRESENT`
   - `GIFT-64`
   - `RECTANGLE`
+
+## Installation
+
+You can install **DiffScout** in a Python environment using `pip`.
+
+### Prerequisites
+
+Make sure you have:
+
+- Python 3.7 or later
+- `pip` (Python package manager)
+
+---
+
+### Install from local directory
+
+```bash
+# Navigate to the root directory of the project
+
+# Create a virtual environment (recommended)
+python -m venv venv
+source venv/bin/activate    # On Windows: venv\Scripts\activate
+
+# Install the package in editable mode
+pip install -e .
