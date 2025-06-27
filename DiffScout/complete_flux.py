@@ -1,7 +1,7 @@
-from utils import *
-from find_best_forward_characteristic import find_differential_characteristic
-from find_best_backward_characterisitc import find_backwards_differential_characteristic
-from find_best_iterative_characteristic import find_iterative_differential_characteristic
+from .utils import *
+from .find_best_forward_characteristic import find_differential_characteristic
+from .find_best_backward_characterisitc import find_backwards_differential_characteristic
+from .find_best_iterative_characteristic import find_iterative_differential_characteristic
 
 #To store in order the found differential characteristics
 class FixedSizePriorityQueue:

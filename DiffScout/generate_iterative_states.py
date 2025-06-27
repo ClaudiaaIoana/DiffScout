@@ -1,6 +1,5 @@
-from generate_forward_states import *
-
-from utils import *
+from .generate_forward_states import *
+from .utils import *
 
 class Node_iterative:
     def __init__(self, state, ddt, P, max_depth, prev_g=1, move_prob=1.0, depth=0, max_simulation=3, MSB=True, parent=None):

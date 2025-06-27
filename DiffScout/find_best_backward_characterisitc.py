@@ -1,4 +1,4 @@
-from generate_backward_states import *
+from .generate_backward_states import *
 
 def find_backwards_differential_characteristic(start_state, ddt, P, max_depth, max_simulation=3, probability_limit=20, max_sbox_active=3, MSB=True, verbose=False):
     global iter_count

@@ -1,4 +1,4 @@
-from generate_iterative_states import *
+from .generate_iterative_states import *
 
 #A* Searching Algorithm
 def find_iterative_differential_characteristic(start_state,ddt,P, max_depth, comparison_function=operator.eq, max_simulation=3, probability_limit=20, max_sbox_active=3, MSB=True, verbose=False):

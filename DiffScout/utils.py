@@ -1,4 +1,4 @@
-from imports import *
+from .imports import *
 
 gift_ddt = [
     [16/16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],

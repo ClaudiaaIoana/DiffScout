@@ -1,4 +1,4 @@
-from generate_forward_states import *
+from .generate_forward_states import *
 
 #A* Searching Algorithm
 def find_differential_characteristic_in_out(start_state,out_state,ddt,P, max_depth, max_simulation=3, probability_limit=20, max_sbox_active=3, MSB=True, verbose=False):
